@@ -38,7 +38,7 @@ class Bars extends Canvas{
             padding:2,
             plotEnabled:true,
             type:'bar',
-            url:'../mdt/web/json/graphData.json'
+            url:'./public/json/graphData.json'
         }
         this.settings = $.extend(defaults, this.settings);
         this.$element.css({

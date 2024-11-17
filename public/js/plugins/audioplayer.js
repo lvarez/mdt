@@ -22,7 +22,7 @@ class AudioPlayer{
             className:'audio-player-container',
             playListDuration:3000,
             dataType:'json',
-            url:'./library/php/getFiles.php',
+            url:'./public/json/player.json',
             volume:100
         }
         this.audioContext       = null;

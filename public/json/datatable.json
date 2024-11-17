@@ -22,5 +22,5 @@
     }],
     "sortName":"nom",
     "sortDirection":"asc",
-    "url":"library/php/contacts.php"
+    "url":"./library/php/contacts.php"
 }

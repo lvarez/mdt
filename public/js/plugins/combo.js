@@ -17,7 +17,7 @@ class Combo{
         const defaults = {
             autoOpen:false,
             dataType:'json',
-            url:'../mdt/web/json/cantons.json'
+            url:'./public/json/cantons.json'
         }
         this.$element   = $(element);
         this.$html      = null;

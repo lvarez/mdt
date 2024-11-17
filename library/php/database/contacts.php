@@ -63,7 +63,7 @@ if(!isset($_GET["keyword"])){
 }
  */
 
-$local = true;
+$local = false;
 
 if($local){
     $hostname = 'localhost';

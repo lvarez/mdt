@@ -21,6 +21,15 @@
 @import "social-menu.css";
 @import "tooltip.css";
 
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
 :root {
     --main-color: #0f315b;
     --hover-color: #feb800;

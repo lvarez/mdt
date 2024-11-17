@@ -1,6 +1,6 @@
 <?php
 
-$local = true;
+$local = false;
 
 if($_SERVER['HTTP_HOST'] === 'localhost'){
     $hostname = 'localhost';
@@ -11,7 +11,7 @@ if($_SERVER['HTTP_HOST'] === 'localhost'){
     $hostname = 'localhost';
     $dbname = 'db000031';
     $username = 'db000031';
-    $password = 'rTsi83eF';
+    $password = 'Nz1v8i21~';
 }
 
 if(isset($_GET["keyword"])){

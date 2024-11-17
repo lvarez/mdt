@@ -37,7 +37,7 @@ class Signature extends Canvas{
     loadImage(){
         super.clear();
         const img = new Image();
-        img.src = '/mdt/web/images/signature.png';
+        img.src = './public/images/signature.png';
         img.onload = ()=>{
             super.drawImage(img);
             this.isDisabled = true;
