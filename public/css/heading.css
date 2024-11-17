@@ -1,0 +1,41 @@
+.heading{
+    position:relative;
+    margin:0 -10px 10px -10px;
+    padding:10px 10px 10px 35px;
+    width:auto;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+95,e5e5e5+100 */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 95%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+    font-weight: bolder;
+    line-height: 15px;
+    box-shadow: 0 1px 3px rgba(11, 28, 66, 0.2);
+}
+
+h4.heading{
+    padding:15px 15px 15px 45px;
+}
+
+.heading::before{
+    position:absolute;
+    display:block;
+    top:calc(50% - height);
+    left:10px;
+    content:attr(data-content);
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+    color: attr(data-color);
+}
+
+.heading[data-color='blue-dark']::before {
+    color:#395c81 !important;
+}
+
+.heading[data-color='blue']::before {
+    color:#5A92C9 !important;
+}
+
+.heading[data-color='blue-light']::before {
+    color:#A9CAE8 !important;
+}

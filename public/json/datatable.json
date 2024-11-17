@@ -1,0 +1,26 @@
+{
+    "name":["contact", "contacts"],
+    "columns":[{
+        "data":"id",
+        "visible":false
+    },{
+        "data":"nom",
+        "label":"Nom",
+        "width":"35%"
+    },{
+        "data":"adresse",
+        "label":"Adresse",
+        "width":"35%"
+    },{
+        "data":"npa",
+        "label":"NPA",
+        "width":"10%"
+    },{
+        "data":"ville",
+        "label":"Ville",
+        "width":"20%"
+    }],
+    "sortName":"nom",
+    "sortDirection":"asc",
+    "url":"library/php/contacts.php"
+}

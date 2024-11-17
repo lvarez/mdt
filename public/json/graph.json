@@ -1,0 +1,33 @@
+[
+    {
+        "settings":{
+            "bars":{
+                "data":"../mdt/web/json/graphData.json",
+                "dataType":"JSON",
+                "gridEnabled":false,
+                "gridScale":10,
+                "gridColor":"#e0e0e0"
+            },
+            "line":{
+                "data":null,
+                "gridEnabled":true,
+                "gridScale":10,
+                "gridColor":"#000"
+            },
+            "pie":{
+                "data":null,
+                "gridEnabled":false,
+                "gridScale":10,
+                "gridColor":"#000"
+            },
+            "legend":{
+                "color":"#000"
+            }
+        },
+        "themes":{
+            "default":{
+               "color":"#000"
+           }
+        }
+    }
+]

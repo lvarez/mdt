@@ -1,0 +1,13 @@
+[{
+    "title":"Informations", 
+    "content":"<p class=\"txtJustify\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>"
+},{    
+    "title":"Journaux", 
+    "content":"<p>Vous trouverez ci-dessous</p>"
+},{    
+    "title":"Rubriques", 
+    "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry<br><br><img src=\"web\\images\\rangeSlider.png\" class=\"centerBlock imgRounded imgBordered\" />"
+},{    
+    "title":"Statistiques", 
+    "content":"<div data-plugin=\"jauge\"></div>Lorem Ipsum is simply dummy text of the printing and typesetting industry<br><br><img src=\"web\\images\\grandmother.gif\" class=\"centerBlock imgRounded imgBordered\" />"
+}]

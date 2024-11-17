@@ -1,0 +1,28 @@
+{
+    "title":"Chiffre d'affaire hebdomadaire",
+    "color":"#337ab7",
+    "xLabel":"Jours",
+    "yLabel":"Chiffre d'affaire",    
+    "data":[{
+        "label":"Lun.",
+        "value":65
+    },{
+        "label":"Mar.",
+        "value":58
+    },{
+        "label":"Mer.",
+        "value":18.5        
+    },{
+        "label":"jeu.",
+        "value":52
+    },{
+        "label":"Ven.",
+        "value":98.32
+    },{
+        "label":"Sam.",
+        "value":34
+    },{
+        "label":"dim.",
+        "value":26
+    }]
+}

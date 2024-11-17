@@ -1,0 +1,13 @@
+[{
+    "title":"Groupe",
+    "content":"We need to be aware that this method escapes the string provided as necessary so that it will render correctly in HTML. To do so, it calls the DOM method .createTextNode(), does not interpret the string as HTML."
+},{
+    "title":"Description",
+    "content":"he Ultimate CSS Gradient Editor was created by Alex Sirota (iosart). If you like this tool, check out ColorZilla for more advanced tools such as eyedroppers, color pickers, palette editors and website analyzers."
+},{
+    "title":"Informations",
+    "content":"N111ow, what we want to do with this HTML is turn each list item into a tab, with the selected item appearing to be part of the corresponding content area."
+},{
+    "title":"Divers",
+    "content":"ewaeNow, what we want to do with this HTML is turn each list item into a tab, with the selected item appearing to be part of the corresponding content area."
+}]

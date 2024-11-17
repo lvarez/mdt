@@ -1,0 +1,10 @@
+[{
+    "title":"Généralités", 
+    "content":"Les alertes sont généralement transmises via un système de notification et l'application la plus courante du service est la communication entre les machines. Les services très basiques fournissent des services de notification par e-mail ou SMS. Des systèmes plus avancés (par exemple AOL) permettent aux utilisateurs de choisir un canal de diffusion préféré, comme le courrier électronique, le SMS, la messagerie instantanée (IM), la voix via des portails vocaux, les alertes de bureau et plus encore. De nouvelles approches permettent aux utilisateurs de programmer leurs propres alertes (par exemple, Google Agenda). Les fournisseurs de services les plus sophistiqués englobent toutes les fonctionnalités, regroupant une multitude de rappels, de notifications et d'alertes, adaptant le système de diffusion au contexte spécifique du contenu fourni, permettant ainsi aux utilisateurs de créer des scénarios sophistiqués."
+},{    
+    "title":"Mode d'emploi", 
+    "content":"<p>Vous trouverez ci-dessous</p>"
+},{    
+    "title":"Paramètres", 
+    "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry<br><br><img src=\"web\\images\\rangeSlider.png\" class=\"centerBlock imgRounded imgBordered\" />"
+}]

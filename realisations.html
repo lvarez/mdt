@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="public/css/styles.css">
+        <link rel="icon" href="public/images/favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="public/js/app.js" type="module"></script>
+        <title>Vazquez luis | Réalisations</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-my">
+            <div class="container">
+                <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="public/images/logo.png" alt="Vazquez Luis" width="64" height="64">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div id="my-nav" class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        <a class="nav-link" href="parcours.html">Mon parcours</a>
+                        <a class="nav-link active" href="realisations.html">Mes réalisation</a>
+                        <a class="nav-link" href="contact.html">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-gray">Mes réalisations</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container box mb-4">
+            <div class="row">
+                <div class="col">
+                    <p class="text-justify mt-2">
+                        Au cours de mon parcours en tant que développeur web, j'ai eu l'opportunité de travailler sur une variété de projets allant de 
+                        la création de sites web statiques à la conception d'applications web complexes. Mon expertise s'est enrichie au fil des années, 
+                        c’est pourquoi, je vous propose une brève présentation des customisation que j’ai pu réaliser. 
+                    </p>
+                </div>
+            </div>
+            <div class="accordion mt-2" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <strong>Formulaires</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            
+                            <p>La customisation des formulaires avec <abbr title="Cascading Styles Sheets">CSS</abbr> vous permet une mise en adéquation de la charte graphique de votre entreprise et des élements <abbr title="HyperText Markup Language">HTML</abbr> de votre site internet. Elle vous permet de modifier les élements de base des formulaires pour les rendre plus conviviaux et de les adapter à la configuration de votre écran.<br><br>Vous trouverez ci-dessous un exemple de customisation des champs de formulaire avec un thème adapté au site qui répondent à tous les type d'événements et peuvent être sélectionnés via un accès clavier.</p>
+                            
+                            <h6 class="heading mt-5" data-content="&#xf205" data-color="blue-dark">Checkbox</h6>
+
+                            <p class="text-9 text-justify">Une case à cocher, une case de sélection ou une case à cocher est une petite case interactive qui peut être basculée par l’utilisateur pour indiquer un choix positif ou négatif. On le trouve fréquemment dans les formulaires d’entrée <abbr title="HyperText Markup Language">HTML</abbr>, les boîtes de dialogue et dans les interfaces graphiques des applications et des systèmes d’exploitation.</p>                          
+
+                            <!-- Radio -->
+                            <div class="row">
+                                <div class="col-xl-4 col-sm-4 mt-4 text-center">
+                                    <div class="text-center"><h4>Standard</h4></div>
+                                    <hr class="title"/>
+                                    <div class="switch-quad-container mt-4 mb-3">
+                                        <label class="switch">
+                                            <input id="switch-radio-1" type="checkbox" class="switch-input">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-1">Checkbox 1</label>
+                                    </div>
+                                    <div class="switch-container">
+                                        <label class="switch">
+                                            <input id="switch-radio-4" type="checkbox" class="switch-input">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-4">Checkbox 4</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-4 mt-4 text-center">
+                                    <div class="text-center"><h4>Activé</h4></div>
+                                    <hr class="title"/>
+                                    <div class="switch-quad-container mt-4 mb-3">
+                                        <label class="switch">
+                                            <input id="switch-radio-2" type="checkbox" class="switch-input" checked="checked">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-2">Checkbox 2</label>
+                                    </div>
+                                    <div class="switch-container">
+                                        <label class="switch">
+                                            <input id="switch-radio-5" type="checkbox" class="switch-input" checked="checked">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-5">Checkbox 5</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-4 mt-4 text-center">
+                                    <div class="text-center"><h4>Désactivé</h4></div>
+                                    <hr class="title"/>
+                                    <div class="switch-quad-container mt-4 mb-3">
+                                        <label class="switch">
+                                            <input id="switch-radio-3" type="checkbox" class="switch-input" disabled="disabled">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-3">Checkbox 3</label>
+                                    </div>
+                                    <div class="switch-container">
+                                        <label class="switch">
+                                            <input id="switch-radio-6" type="checkbox" class="switch-input" disabled="disabled">
+                                            <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                            <span class="switch-handle"></span>
+                                        </label>
+                                        <label class="switchLabel" for="switch-radio-6">Checkbox 6</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h6 class="heading mt-5" data-content="&#xf14a" data-color="blue-dark">Radio</h6>
+        
+                            <p class="text-9 text-justify">Un bouton radio est un élément de formulaire qui permet à l'utilisateur de sélectionner une option parmi une gamme d'options. On le trouve fréquemment dans les formulaires d’entrée <abbr title="HyperText Markup Language">HTML</abbr>, les boîtes de dialogue et dans les interfaces graphiques des applications et des systèmes d’exploitation.</p>                            
+
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6 mt-4 text-center">
+                                    <div class="text-center"><h4>Grands</h4></div>
+                                    <hr class="title"/>
+                                    <h6 class="mt-2">Carte de crédit</h6>
+                                    <div class="switchRadio">
+                                        <input type="radio" id="visa" name="creditcard" value="creditcard" checked="checked">
+                                        <label for="visa">Visa</label>
+                                        <input type="radio" id="mastercard" name="creditcard" value="mastercard">
+                                        <label for="mastercard">MasterCard</label>
+                                        <input type="radio" id="postcard" name="creditcard" value="postcard">
+                                        <label for="postcard">PostCard</label>
+                                    </div>
+                                    <h6 class="mt-2">Facturation</h6>
+                                    <div class="switchRadio">
+                                        <input type="radio" id="facture" name="facturation" value="facture" checked="checked">
+                                        <label for="facture">Facture</label>
+                                        <input type="radio" id="commande" name="facturation" value="commande">
+                                        <label for="commande">Mensuel</label>
+                                    </div>
+                                    <h6 class="mt-2">Qualification</h6>
+                                    <div class="switchRadio">
+                                        <input type="radio" id="amateur" name="qualif" value="amateur">
+                                        <label for="amateur">Amateur</label>
+                                        <input type="radio" id="avance" name="qualif" value="qualif">
+                                        <label for="avance">Avancé</label>
+                                        <input type="radio" id="professionnel" name="qualif" value="professionnel" checked="checked">
+                                        <label for="professionnel">Professionnel</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 mt-4 text-center">
+                                    <div class="text-center"><h4>Moyens</h4></div>
+                                    <hr class="title"/>
+                                    <h6 class="mt-2">Avis</h6>
+                                    <div class="switchRadio switchRadio-sm">
+                                        <input type="radio" id="oui" name="radio" value="oui" checked="checked">
+                                        <label for="oui">Oui</label>
+                                        <input type="radio" id="non" name="radio" value="non">
+                                        <label for="non">Non</label>
+                                        <input type="radio" id="peutetre" name="radio" value="peutetre">
+                                        <label for="peutetre">Peut-être</label>
+                                    </div>
+                                    <h6 class="mt-2">Base de données</h6>
+                                    <div class="switchRadio switchRadio-sm">
+                                        <input type="radio" id="mysql" name="db" value="mysql">
+                                        <label for="mysql">MySql</label>
+                                        <input type="radio" id="sqlserver" name="db" value="sqlserver" checked="checked">
+                                        <label for="sqlserver">SQL Server</label>
+                                        <input type="radio" id="oracle" name="db" value="oracle">
+                                        <label for="oracle">Oracle</label>
+                                    </div>
+                                    <h6 class="mt-2">Périodicité</h6>
+                                    <div class="switchRadio switchRadio-sm">
+                                        <input type="radio" id="journalier" name="periodicity" value="journalier" checked="checked">
+                                        <label for="journalier">Journalier</label>
+                                        <input type="radio" id="hebdomadaire" name="periodicity" value="hebdomadaire">
+                                        <label for="hebdomadaire">Hebdomadaire</label>
+                                        <input type="radio" id="mensuel" name="periodicity" value="mensuel">
+                                        <label for="mensuel">Mensuel</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-12 mt-4 text-center">
+                                    <div class="text-center"><h4>Petits</h4></div>
+                                    <hr class="title"/>
+                                    <h6 class="mt-2">Cryptage</h6>
+                                    <div class="switchRadio switchRadio-xs">
+                                        <input type="radio" id="crypt_des" name="crypt" value="des">
+                                        <label for="crypt_des">DES</label>
+                                        <input type="radio" id="crypt_aes" name="crypt" value="aes" checked="checked">
+                                        <label for="crypt_aes">AES</label>
+                                        <input type="radio" id="crypt_rsa" name="crypt" value="rsa">
+                                        <label for="crypt_rsa">RSA</label>
+                                    </div>
+                                    <h6 class="mt-2">Orientation</h6>
+                                    <div class="switchRadio switchRadio-xs">
+                                        <input type="radio" id="left" name="move" value="left">
+                                        <label for="left"><span class="fa fa-angle-left"></span></label>
+                                        <input type="radio" id="up" name="move" value="up" checked="checked">
+                                        <label for="up"><span class="fa fa-angle-up"></span></label>
+                                        <input type="radio" id="down" name="move" value="down">
+                                        <label for="down"><span class="fa fa-angle-down"></span></label>
+                                        <input type="radio" id="right" name="move" value="right">
+                                        <label for="right"><span class="fa fa-angle-right"></span></label>
+                                    </div>
+                                    <h6 class="mt-2">Sexe</h6>
+                                    <div class="switchRadio switchRadio-xs">
+                                        <input type="radio" id="masculin" name="sexe" value="masculin" checked="checked">
+                                        <label for="masculin"><span class="fa fa-mars"></span> Masculin</label>
+                                        <input type="radio" id="feminin" name="sexe" value="feminin">
+                                        <label for="feminin"><span class="fa fa-venus"></span> Féminin</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h6 class="heading mt-5" data-content="&#xf3fd" data-color="blue-dark">Range</h6>
+        
+                            <p class="text-9 text-justify">Les éléments input de type range permettent à l'utilisateur de spécifier une valeur numérique qui ne doit pas être inférieure à une valeur donnée, et pas plus qu'une autre valeur donnée. La valeur précise, cependant, n'est pas considérée comme importante. Ceci est généralement représenté à l'aide d'un curseur ou d'un contrôle de numérotation plutôt qu'une zone de saisie de texte comme le type de saisie numérique. </p>
+        
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 mt-2">
+                                    <h6>Volume</h6>
+                                    <div class="inputRange">
+                                        <input type="range" name="volume" min="0" max="100" value="100" data-value="100" oninput="$(this).attr('data-value', this.value)">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xs-12 mt-2">
+                                    <h6>Puissance</h6>
+                                    <div class="inputRange">
+                                        <input type="range" name="volume" min="0" max="100" step="5" value="50" data-value="50" oninput="$(this).attr('data-value', this.value)">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h6 class="heading mt-5" data-content="&#xf3fd" data-color="blue-dark">Select</h6>
+                            <p class="text-9 text-justify">Les éléments input de type range permettent à l'utilisateur de spécifier une valeur numérique qui ne doit pas être inférieure à une valeur donnée, et pas plus qu'une autre valeur donnée. La valeur précise, cependant, n'est pas considérée comme importante. Ceci est généralement représenté à l'aide d'un curseur ou d'un contrôle de numérotation plutôt qu'une zone de saisie de texte comme le type de saisie numérique. </p>                          
+
+                            <div class="row">
+                                <div class="col-xl-6 col-sm-12 text-center">
+                                    <div class="text-center"><h4>Stylisé</h4></div>
+                                    <hr class="title"/>
+                                    <h6>Période</h6>
+                                    <div class="selectBox">
+                                        <select>
+                                            <option>Annuel</option>
+                                            <option>Mensuel</option>
+                                            <option>Hebdomadaire</option>
+                                            <option>Quotidien</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-sm-12 text-center">
+                                    <div class="text-center"><h4>Stylisé avec contenu ajax</h4></div>
+                                    <hr class="title"/>
+                                    <h6>Cantons</h6>
+                                    <div data-plugin="combo"></div>
+                                </div>
+                            </div>
+
+                            <h6 class="heading mt-5" data-content="&#xf0d0" data-color="blue-dark">Exemple</h6>
+        
+                            <p class="text-9 text-justify">Ci-dessous vous trouverez un exemple d'utilisation des champs customisés dans un formulaire et des diverses applications qu'ils pourraient avoir. Cet exemple pourrait être la console d'administration de votre entreprise.</p>
+        
+                            <!-- ConsoleAdmin -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mdt-box" id="consoleAdmin">
+        
+                                        <!-- BoxHeader -->
+                                        <div class="mdt-box-header">
+                                            <i class="fa fa-gear"></i> Console d'administration <a href="#bodyAdmin" class="text-white" data-bs-toggle="collapse" aria-controls="collapseBodyAdmin"><i class="fa fa-minus float-end collapseButton"></i></a>
+                                        </div>
+                                        <!-- End BoxHeader -->
+        
+                                        <!-- BodyAdmin -->
+                                        <div id="bodyAdmin" class="collapse show">
+        
+                                            <!-- BoxBody -->
+                                            <div class="mdt-box-body">
+
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link active" id="general-tab" data-bs-toggle="tab" data-bs-target="#general-tab-pane" type="button" role="tab" aria-controls="general-tab-pane" aria-selected="true">Général</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="database-tab" data-bs-toggle="tab" data-bs-target="#database-tab-pane" type="button" role="tab" aria-controls="database-tab-pane" aria-selected="false">Base de données</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="mailling-tab" data-bs-toggle="tab" data-bs-target="#mailling-tab-pane" type="button" role="tab" aria-controls="mailling-tab-pane" aria-selected="false">Serveur de messagerie</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services-tab-pane" type="button" role="tab" aria-controls="services-tab-pane" aria-selected="false">Services</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="security-tab" data-bs-toggle="tab" data-bs-target="#security-tab-pane" type="button" role="tab" aria-controls="security-tab-pane" aria-selected="false">Sécurité</button>
+                                                    </li>
+                                                </ul>
+        
+                                                <!-- TabContent -->
+                                                <div class="tab-content" id="adminConsoleTabContent">
+                                                    
+                                                    <!-- General -->
+                                                    <div class="tab-pane fade show active" id="general-tab-pane" role="tabpanel" aria-labelledby="general-tab" tabindex="0">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-md-8 col-sm-12">
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Raison sociale" aria-label="Raison sociale" aria-describedby="basic-addon1" value="Micro Downtown">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-building"></i></span>
+                                                                </div>
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Adresse" aria-label="Adresse" aria-describedby="basic-addon1" value="Chemin de Renens 24">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-road"></i></span>
+                                                                </div>
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Adresse 2" aria-label="Adresse 2" aria-describedby="basic-addon1">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-road"></i></span>
+                                                                </div>  
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <div class="input-group input-group-sm">
+                                                                            <input type="text" class="form-control input-first" placeholder="NPA" aria-label="NPA" aria-describedby="basic-addon1" maxlength="4" value="1004">
+                                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-road"></i></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <div class="input-group input-group-sm">
+                                                                            <input type="text" class="form-control input-first" placeholder="Localité" aria-label="Localité" aria-describedby="basic-addon1" value="Lausanne">
+                                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-road"></i></span>
+                                                                        </div>                                                   
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <br>
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Téléphone" aria-label="Téléphone" aria-describedby="basic-addon1">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone"></i></span>
+                                                                </div> 
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Mobile" aria-label="Mobile" aria-describedby="basic-addon1" value="079 206 68 88">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile"></i></span>
+                                                                </div> 
+                                                                <br>                                                                                        
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="email" class="form-control input-first" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" value="luis@microdowntown.com">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                                                                </div>
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Site Web" aria-label="Site Web" aria-describedby="basic-addon1" value="http://www.microdowntown.com">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-globe-europe"></i></span>
+                                                                </div>                                          
+                                                            </div>
+                                                            <div class="col-xl-6 col-md-4 hidden-sm"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End General -->
+        
+                                                    <!-- Base de données -->
+                                                    <div class="tab-pane fade" id="database-tab-pane" role="tabpanel" aria-labelledby="database-tab" tabindex="0">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-md-9">
+                                                                <div class="selectBox no-select">
+                                                                    <select>
+                                                                        <option>MariaDB</option>
+                                                                        <option selected="selected">MySql</option>
+                                                                        <option>SQL Server</option>
+                                                                        <option>Oracle</option>
+                                                                        <option>PostgreSQL</option>
+                                                                    </select>
+                                                                </div>
+                                                                <br>
+                                                                <br>
+                                                                <div class="row mb-3">
+                                                                    <div class="col-md-9">
+                                                                        <div class="input-group input-group-sm">
+                                                                            <input type="text" class="form-control input-first" placeholder="Nom d'hôte" aria-label="Nom d'hôte" aria-describedby="basic-addon1" value="127.0.0.1">
+                                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-server"></i></span>
+                                                                        </div>  
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="input-group input-group-sm">
+                                                                            <input type="text" class="form-control input-first" placeholder="Port" aria-label="Port" aria-describedby="basic-addon1" value="3306">
+                                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-plug"></i></span>
+                                                                        </div>     
+                                                                    </div>
+                                                                </div>                                            
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Nom d'utilisateur" aria-label="Nom d'utilisateur" aria-describedby="basic-addon1" value="root">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                                                                </div>  
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="password" class="form-control input-first" placeholder="Mot de passe" aria-label="Mot de passe" aria-describedby="basic-addon1" value="123">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-unlock"></i></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-md-3 hidden-xs"></div>                                     
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Base de données -->
+        
+                                                    <!-- SMTP -->
+                                                    <div class="tab-pane fade" id="mailling-tab-pane" role="tabpanel" aria-labelledby="mailling-tab" tabindex="0">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-md-9">
+                                                                <div class="row mb-3">
+                                                                    <div class="col-md-9">
+                                                                        <div class="input-group input-group-sm">
+                                                                            <input type="text" class="form-control input-first" placeholder="Nom d'hôte" aria-label="Nom d'hôte" aria-describedby="basic-addon1" value="127.0.0.1">
+                                                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-server"></i></span>
+                                                                        </div>  
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="form-group">
+                                                                            <div class="input-group input-group-sm">
+                                                                                <input type="text" class="form-control input-first" placeholder="Port" aria-label="Port" aria-describedby="basic-addon1" value="443">
+                                                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-plug"></i></span>
+                                                                            </div>                                                
+                                                                        </div>   
+                                                                    </div>
+                                                                </div>
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="text" class="form-control input-first" placeholder="Nom d'utilisateur" aria-label="Nom d'utilisateur" aria-describedby="basic-addon1" value="root">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                                                                </div>    
+                                                                <div class="input-group input-group-sm mb-3">
+                                                                    <input type="password" class="form-control input-first" placeholder="Mot de passe" aria-label="Mot de passe" aria-describedby="basic-addon1" value="123">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-unlock"></i></span>
+                                                                </div> 
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-ssl" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-ssl">Activer SSL</label>
+                                                                </div>
+                                                                <div class="switch-container">
+                                                                    <label class="switch">
+                                                                        <input id="switch-auth" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-auth">Activer l'authentification</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-md-3 hidden-xs"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End SMTP -->
+        
+                                                    <!-- Services -->
+                                                    <div class="tab-pane fade" id="services-tab-pane" role="tabpanel" aria-labelledby="services-tab" tabindex="0">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-xl-3 col-md-6">
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-amazon" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-amazon">Amazon web service</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Amazon Web Services (AWS) est une division du groupe américain de commerce électronique Amazon, spécialisée dans les services de cloud computing à la demande pour les entreprises et particuliers"></i>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-google" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-google">Google analytics</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Google Analytics est un service gratuit d'analyse d'audience d'un site Web ou d'applications utilisé par plus de 10 millions de sites, soit plus de 80 % du marché mondial"></i>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                    <input id="switch-facebook" type="checkbox" class="switch-input">
+                                                                    <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                    <span class="switch-handle"></span>
+                                                                </label>
+                                                                <label class="switchLabel" for="switch-facebook">Facebook</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Facebook est un réseau social en ligne qui permet à ses utilisateurs de publier des images, des photos, des vidéos, des fichiers et documents, d'échanger des messages, joindre et créer des groupes et d'utiliser une variété d'applications."></i>
+                                                            </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-google-book" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-google-book">Google Book</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Google Livres, ou Google Books en anglais (anciennement Google Print), est un service en ligne fourni par Google. Lancé en décembre 2004, il dispose de moyens financiers et techniques considérables, et a vu son champ d'activité s'élargir progressivement. En 2017, c'est à la fois un outil de recherche intra-texte, de consultation de livres en ligne ou sur appareil mobile, de constitution de collections personnelles, et de téléchargement d'ouvrages libres de droits."></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-4 col-sm-6">
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-google-maps" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-google-maps">Google maps</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Google Maps est un service de cartographie en ligne."></i>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-yahoo" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-yahoo">Yahoo Finance</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Yahoo Finance fournit des informations financières, des données et des commentaires, y compris des cotations boursières, communiqués de presse, rapports financiers, et du contenu original."></i>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-deezer" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-deezer">Deezer</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Deezer est une plateforme française de distribution numérique dédiée à l'écoute de musique en streaming sous la forme d'un site web et d'applications mobiles, lancé en août 2007."></i>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-booking" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-booking">Booking</label> <i class="fa fa-info-circle align-middle info" data-plugin="tooltip"  data-options='{"direction":"top-left"}' title="Booking.com est un site néerlandais qui propose des hébergements dans différents types de propriétés allant de l'hôtel au gîte touristique (bed and breakfast) en passant par l'appartement. Il est décliné en 43 autres langues."></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-9 col-md-6 hidden-xs"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Services -->
+        
+                                                    <!-- Sécurité -->
+                                                    <div class="tab-pane fade" id="security-tab-pane" role="tabpanel" aria-labelledby="security-tab" tabindex="0">
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-xl-4 col-md-3">
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-https" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-https">HTTPS</label>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-crypt-mdp" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-crypt-mdp">Crypter les mots de passe</label>
+                                                                </div>
+                                                                <div class="selectBox no-select mb-3">
+                                                                    <select>
+                                                                        <option>3DES</option>
+                                                                        <option>DES</option>
+                                                                        <option selected="selected">AES</option>
+                                                                        <option>RC4</option>
+                                                                        <option>RC5</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="switch-container mb-3">
+                                                                    <label class="switch">
+                                                                        <input id="switch-log-connexion" type="checkbox" class="switch-input">
+                                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                                        <span class="switch-handle"></span>
+                                                                    </label>
+                                                                    <label class="switchLabel" for="switch-log-connexion">Journalisation des connexions</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-4 col-md-6">
+                                                                <div class="input-group input-group-sm">
+                                                                    <input type="text" class="form-control input-first" placeholder="Certificat SSL" aria-label="Certificat SSL" aria-describedby="basic-addon1">
+                                                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-certificate"></i></span>
+                                                                </div> 
+                                                            </div>
+                                                            <div class="col-xl-4 col-md-3 hidden-xs"></div>
+                                                        </div>                                    
+                                                    </div>
+                                                    <!-- End Sécurité -->
+                                                    
+                                                </div>
+                                                <!-- End TabContent -->
+        
+                                            </div>
+                                        </div>
+                                        <!-- End BoxBody -->
+        
+                                        <!-- BoxFooter -->
+                                        <div class="mdt-box-footer">Copyrights &copy; Micro Downtown - Version 1.0</div>
+                                        <!-- End BoxFooter -->
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End ConsoleAdmin -->
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Eléments visuels</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>La présentation des information aux utilisateurs a été facilitée grace à l'arrivée de <abbr title="Cascading Styles Sheets">CSS</abbr>. Aujourd'hui il est devenu indispensable d'avoir un impact graphique avec les utilisateurs et ainsi les fidéliser.<br><br>Vous trouverez ci-dessous des exemples de créations graphiques qui permettent de présenter différemment les informations aux utilisateurs, comme de la publicité, des listes de prix, etc...</p>
+                            <!-- PriceTable -->
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <h6 class="heading" data-content="&#xf4c0" data-color="blue-light">Liste de prix</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 align-center">
+                                    <p class="text-9 text-justify">Les listes peuvent être personnalisées avec <abbr title="Cascading Styles Sheets">CSS</abbr> pour un affichage des informations groupées, ce qui induit une meilleur expérience utilisateur. </p>
+                                </div>
+                            </div>                        
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="priceTable">
+                                        <li>
+                                            <div class="title">
+                                                <h3>BASIC</h3>
+                                                <span>Petites entreprises</span>
+                                            </div>
+                                            <div class="price">
+                                                <span>199</span> <span class="small">CHF</span><br>
+                                                <span class="mutted">Par mois</span>
+                                            </div>
+                                            <ul class="features">
+                                                <li><span class="fa fa-check"></span>Support 24/7</li>
+                                                <li><span class="fa fa-calculator"></span>Comptabilité</li>
+                                                <li><span class="fa fa-user"></span>Contacts</li>
+                                                <li><span class="fa fa-file"></span>Documents</li>
+                                                <li><span class="fa fa-industry"></span>Stock</li>
+                                            </ul>
+                                            <a href="#" onclick="return;" class="btn btnDefault">Commander</a>
+                                        </li>
+                                        <li>
+                                            <div class="title">
+                                                <h3>STANDARD</h3>
+                                                <span>PME</span>
+                                            </div>
+                                            <div class="price">
+                                                <span>399</span> <span class="small">CHF</span><br>
+                                                <span class="mutted">Par mois</span>
+                                            </div>
+                                            <ul class="features">
+                                                <li><span class="fa fa-check"></span>Support 24/7</li>
+                                                <li><span class="fa fa-suitcase"></span>Affaires</li>
+                                                <li><span class="fa fa-calculator"></span>Comptabilité</li>
+                                                <li><span class="fa fa-user"></span>Contacts</li>
+                                                <li><span class="fa fa-link"></span>CRM</li>                                
+                                                <li><span class="fa fa-file"></span>Documents</li>                                
+                                                <li><span class="fa fa-users"></span>Ressources Humaines</li>
+                                                <li><span class="fa fa-industry"></span>Stock</li>
+                                            </ul>  
+                                            <a href="#" onclick="return;" class="btn btnDefault">Commander</a>                      
+                                        </li>
+                                        <li>
+                                            <div class="title">
+                                                <h3>PREMIUM</h3>
+                                                <span>Grandes entreprises</span>
+                                            </div>
+                                            <div class="price">
+                                                <span>499</span> <span class="small">CHF</span><br>
+                                                <span class="mutted">Par mois</span>
+                                            </div>
+                                            <ul class="features">
+                                                <li><span class="fa fa-check"></span>Support 24/7</li>
+                                                <li><span class="fa fa-suitcase"></span>Affaires</li>
+                                                <li><span class="fa fa-calculator"></span>Comptabilité</li>
+                                                <li><span class="fa fa-user"></span>Contacts</li>
+                                                <li><span class="fa fa-link"></span>CRM</li>                                
+                                                <li><span class="fa fa-file"></span>Documents</li>                                
+                                                <li><span class="fa fa-cubes"></span>GRM</li>         
+                                                <li><span class="fa fa-users"></span>Ressources Humaines</li>                       
+                                                <li><span class="fa fa-chart-pie"></span>Statistiques</li>
+                                                <li><span class="fa fa-industry"></span>Stock</li>
+                                            </ul>
+                                            <a href="#" onclick="return;" class="btn btnDefault">Commander</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End PriceTable -->
+
+                            <!-- FlipCard -->
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <h6 class="heading" data-content="&#xf079" data-color="blue-light">FlipCard</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 align-center">
+                                    <p class="text-9 text-justify"><abbr title="Cascading Styles Sheets">CSS</abbr> nous permet de gérer la perspective est nous permet de faire ces cartes à retournement qui ajoutent une meilleur expérience utilisateur et permet une présentation différente des informations.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <ul class="adv">
+                                        <li>
+                                            <div class="flip-container">
+                                                <div class="flipper">
+                                                    <div class="front bg-flip-card">
+                                                        <img src="public/images/employe_1.png" class="imgCircle">
+                                                        <br>
+                                                        <br>
+                                                        <h4><strong>John Li</strong></h4>
+                                                        <p>Designer</p>
+                                                    </div>
+                                                    <div class="back bg-flip-card-back">
+                                                        <div class="text-left">
+                                                            <h5><strong>A propose de moi</strong><h5>
+                                                            <p class="text-justify">Je vois le monde par le dessin qui est ma passion aujourd'hui, passionné de Mangas, j'aime croire dans les mystères de la vie.</p>
+                                                            <br>                                                   
+                                                            <h5><strong>Compétences</strong></h5>
+                                                            <p>Adobe Illustrator</p>
+                                                            <p>Adobe photoshop</p>
+                                                            <p>Blender</p>                                                   
+                                                            <p>UI/UX designer</p>                                                   
+                                                            <br>
+                                                            <a href="mailto://info@microdowntown.com?subject=John Li"><i class="fa fa-envelope"></i> Contactez moi</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                            
+                                        </li>
+                                        <li>
+                                            <div class="flip-container">
+                                                <div class="flipper">
+                                                    <div class="front bg-flip-card">
+                                                        <img src="public/images/luis.jpg" class="imgCircle">
+                                                        <br>
+                                                        <br>
+                                                        <h4><strong>Vazquez luis</strong></h4>
+                                                        <p>Développeur</p>
+                                                    </div>
+                                                    <div class="back bg-flip-card-back">
+                                                        <div class="text-left">
+                                                            <h5><strong>A propose de moi</strong><h5>
+                                                            <p class="text-justify">Curieux de nature, j'ai acquis mes compétences en tant qu'autodidacte ainsi que dans mes divers postes. J'aime apprendre de nouvelles choses et acquérir de nouvelles compétences.</p>
+                                                            <br>                                                        
+                                                            <h5><strong>Compétences</strong></h5>
+                                                            <p>Windev, Windev Mobile, WebDev</p>
+                                                            <p>Visual Studio, .NET, C#</p>
+                                                            <p>HTML5, CSS3, Javascript, JSON</p>
+                                                            <p>Sql Server, MySql, MariaDB</p>
+                                                            <br>
+                                                            <a href="mailto://info@microdowntown.com?subject=Vazquez Luis"><i class="fa fa-envelope"></i> Contactez moi</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                            
+                                        </li>
+                                        <li>
+                                            <div class="flip-container">
+                                                <div class="flipper">
+                                                    <div class="front bg-flip-card">
+                                                        <img src="public/images/employe_2.png" class="imgCircle">
+                                                        <br>
+                                                        <br>
+                                                        <h4><strong>Jessica Ramos</strong></h4>
+                                                        <p>Comptable</p>
+                                                    </div>
+                                                    <div class="back bg-flip-card-back">
+                                                        <div class="text-left">
+                                                            <h5><strong>A propose de moi</strong><h5>
+                                                            <p class="text-justify">On dit de moi que je suis toujours souriante, prête à aider son prochain mais qui ne se laisse jamais marcher dessus.</p>
+                                                            <br>
+                                                            <h5><strong>Compétences</strong></h5>
+                                                            <p>Comptabilité débiteurs, fournisseurs</p>
+                                                            <p>Comptabilité analytiques</p>
+                                                            <p>Salaires</p>
+                                                            <br>
+                                                            <a href="mailto://info@microdowntown.com?subject=Jessica Ramos"><i class="fa fa-envelope"></i> Contactez moi</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End FlipCard -->
+
+                            <!-- Social menu -->
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <h6 class="heading" data-content="&#xf500" data-color="blue-light">Social menu</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 align-center">
+                                    <p class="text-9 text-justify"></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 text-center">
+                                    <ul class="social-menu">
+                                        <li data-plugin="tooltip" title="Facebook"><a href="https:\\www.facebook.com" onclick="window.open(this.href);return false"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li data-plugin="tooltip" title="Twitter"><a href="https:\\www.twitter.com" onclick="window.open(this.href);return false"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li data-plugin="tooltip" title="Instagram"><a href="https:\\www.instagram.com" onclick="window.open(this.href);return false"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li data-plugin="tooltip" title="Linkedin"><a href="https:\\www.linkedin.com" onclick="window.open(this.href);return false"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li data-plugin="tooltip" title="Youtube"><a href="https:\\www.youtube.com" onclick="window.open(this.href);return false"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-6 text-center">
+                                    <ul class="social-menu">
+                                        <li data-plugin="tooltip" title="Microsoft" data-color="#789222"><a href="https:\\www.microsoft.com" onclick="window.open(this.href);return false"><i class="fab fa-microsoft"></i></a></li>
+                                        <li data-plugin="tooltip" title="Apple"><a href="https:\\www.apple.com" onclick="window.open(this.href);return false"><i class="fab fa-apple"></i></a></li>
+                                        <li data-plugin="tooltip" title="Google"><a href="https:\\www.google.com" onclick="window.open(this.href);return false"><i class="fab fa-google"></i></a></li>
+                                        <li data-plugin="tooltip" title="Amazon"><a href="https:\\www.amazon.com" onclick="window.open(this.href);return false"><i class="fab fa-amazon"></i></a></li>
+                                        <li data-plugin="tooltip" title="Ebay"><a href="https:\\www.ebay.com" onclick="window.open(this.href);return false"><i class="fab fa-ebay"></i></a></li>
+                                    </ul>                                       
+                                </div>
+                            </div>
+                            <!-- End Social menu -->
+
+                            <!-- Rating -->
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <h6 class="heading" data-content="&#xf772" data-color="blue-light">Vote</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 align-center">
+                                    <p class="text-9 text-justify"></p>
+                                </div>
+                            </div>                        
+                            <div class="row">
+                                <div class="col-xl-4 col-md-4 text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="heart" id="heart_1"><label for="heart_1" data-content="&#xf004;"></label>
+                                        <input type="radio" name="heart" id="heart_2"><label for="heart_2" data-content="&#xf004;"></label>
+                                        <input type="radio" name="heart" id="heart_3" checked="checked"><label for="heart_3" data-content="&#xf004;"></label>
+                                        <input type="radio" name="heart" id="heart_4"><label for="heart_4" data-content="&#xf004;"></label>
+                                        <input type="radio" name="heart" id="heart_5"><label for="heart_5" data-content="&#xf004;"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-4 mt-sm-4 mt-md-0 text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="star" id="star_1"><label for="star_1" data-content="&#xf005;"></label>
+                                        <input type="radio" name="star" id="star_2"><label for="star_2" data-content="&#xf005;"></label>
+                                        <input type="radio" name="star" id="star_3"><label for="star_3" data-content="&#xf005;"></label>
+                                        <input type="radio" name="star" id="star_4" checked="checked"><label for="star_4" data-content="&#xf005;"></label>
+                                        <input type="radio" name="star" id="star_5"><label for="star_5" data-content="&#xf005;"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-4 mt-sm-4 mt-md-0 text-center">
+                                    <div class="rating">
+                                        <input type="radio" name="dot" id="dot_1"><label for="dot_1" data-content="&#xf111;"></label>
+                                        <input type="radio" name="dot" id="dot_2"><label for="dot_2" data-content="&#xf111;"></label>
+                                        <input type="radio" name="dot" id="dot_3"><label for="dot_3" data-content="&#xf111;"></label>
+                                        <input type="radio" name="dot" id="dot_4"><label for="dot_4" data-content="&#xf111;"></label>
+                                        <input type="radio" name="dot" id="dot_5" checked="checked"><label for="dot_5" data-content="&#xf111;"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Rating -->
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <strong>Plugins JQuery</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row mt-2">
+                                <div class="col-xl-6 col-sm-12 mb-sm-5">
+                                    <!-- Lecteur audio -->
+                                    <h6 class="heading" data-content="&#xf04b" data-color="blue-light">Audio Player</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-8 text-justify">Nombreux sites internet proposent de la musique et avec JQuery le lecteur de base peut être personnalisés en fonction du besoin. Ce lecteur vous propose une playlist de musiques libre de droits, un analyseur et permet de nombreux réglages que le lecteur <abbr title="HyperText Markup Language">HTML</abbr> de base ne proposent pas.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <div data-plugin="audioplayer"></div>
+                                        </div>
+                                    </div>                                       
+                                    <!-- End Lecteur audio -->
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6 class="heading" data-content="&#xf002" data-color="blue-light">Auto complétion</h6>
+                                            <p class="text-8 text-justify">Afin d'améliorer les recherches des données de votre société, et de rendre plus agréable la recherche de vos utilisateurs. Le plugin d'auto complétion vous fourni des suggestion à la recherche effectuée, ce qui permet aux utilisateurs de sélectionner plus rapidement l'élément recherché.</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="txtMuted float-right">Mots clés : [ ala | com | pro | que | san | ser | tec ]</span>
+                                        <div class="autocomplete-container">
+                                            <input type="text" name="test" class="form-control" data-plugin="autocomplete" placeholder="Recherche" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                                    
+        
+                            <div class="row mt-5">
+                                <div class="col-xl-6 col-md-6 mb-sm-5">
+                                    <!-- Color picker -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6 class="heading" data-content="&#xf53f" data-color="blue-light">Color Picker</h6>
+                                            <p class="text-8 text-justify">La sélection d'une couleur devient indispensable lorsque vous voulez configurer un text ou d'autre élements d'interface. Le plugin Color Picker vous permet de sélectionner une couleur depuis une palette de couleurs.</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input type="text" name="test" class="form-control" data-plugin="colorpicker" placeholder="Sélectionnez une couleur" autocomplete="off">
+                                    </div>
+                                    <!-- End Color picker -->
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <!-- Date picker -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h6 class="heading" data-content="&#xf073" data-color="blue-light">Date Picker</h6>
+                                            <p class="text-8 text-justify">De nombreux formulaires proposent à leurs utilisateur de saisir une date, afin d'en améliorer la saisie le plugin Date Picker vous permet de sélectionner une date avec plus de convivialité.</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-container">
+                                        <input type="text" name="test" class="form-control" data-plugin="datepicker" placeholder="Sélectionnez une date" autocomplete="off">
+                                    </div>
+                                    <!-- End Color picker -->
+                                </div>
+                            </div>
+
+                            <!-- Graphiques -->
+                            <h6 class="heading mt-5" data-content="&#xf080" data-color="blue-light">Graphiques</h6>
+                            <div class="row">
+                                <div class="col-12 align-center">
+                                    <p class="text-8 text-justify">Ils fournissent le moyen de présenter les données collectées, leur traitement, leur analyse, l'intérpretation des résultats et leur présentation afin de rendre ces données compréhensibles pour tous.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 text-center">
+                                    <div class="graph-container">
+                                        <div data-plugin="graph" class="graph" data-options='{"url":"../mdt/web/json/graphData2.json"}'></div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                <div class="selectBox">
+                                                    <select class="selectGraph"><option value="bars">Bars</option><option value="lines">Lines</option><option value="pie">Pie</option></select>
+                                                </div>
+                                                <div class="selectBox">
+                                                    <select class="orientationGraph"><option value="vertical">Vertical</option><option value="horizontal">Horizontal</option></select>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <div class="switch-container">
+                                                    <label class="switchLabel" for="switch-grid">Activer la grille</label>
+                                                    <label class="switch">
+                                                        <input id="switch-grid" type="checkbox" class="switch-input grid" checked="checked">
+                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                        <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="switch-container">
+                                                    <label class="switchLabel" for="switch-plot">Activer le plot</label>
+                                                    <label class="switch">
+                                                        <input id="switch-plot" type="checkbox" class="switch-input plot" checked="checked">
+                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                        <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 hidden-lg text-center">
+                                    <div class="graph-container">
+                                        <div data-plugin="graph" class="graph" data-options='{"url":"../mdt/web/json/graphData.json"}'></div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                <div class="selectBox">
+                                                    <select class="selectGraph">
+                                                        <option value="bars">Bars</option>
+                                                        <option value="lines">Lines</option>
+                                                        <option value="pie">Pie</option>
+                                                    </select>
+                                                </div>
+                                                <div class="selectBox">
+                                                    <select class="orientationGraph">
+                                                        <option value="vertical">Vertical</option>
+                                                        <option value="horizontal">Horizontal</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <div class="switch-container">
+                                                    <label class="switchLabel" for="switch-grid-2">Activer la grille</label>
+                                                    <label class="switch">
+                                                        <input id="switch-grid-2" type="checkbox" class="switch-input grid" checked="checked">
+                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                        <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="switch-container">
+                                                    <label class="switchLabel" for="switch-plot-2">Activer le plot</label>
+                                                    <label class="switch">
+                                                        <input id="switch-plot-2" type="checkbox" class="switch-input plot" checked="checked">
+                                                        <span class="switch-label" data-on="OUI" data-off="NON"></span>
+                                                        <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <!-- End Graphiques -->
+                            
+                            <div class="row mt-5">
+                                <div class="col-xl-6 col-md-12 mb-sm-5">
+                                    <!-- Jauges -->
+                                    <h6 class="heading" data-content="&#xf012" data-color="blue-light">Jauges</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-8 text-justify">Elles permettent d'afficher les données collectées ou de définir des données dans une plage de valeurs. Elles présentent une nouvelle façon d'afficher les données et ainsi donne une meilleure expérience utilisateur.</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <div class="jaugeRange" data-plugin="jaugeRange" data-min="0" data-max="100" data-value="50"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Jauges -->
+                                </div>
+                                <div class="col-xl-6 col-md-12">
+                                    <!-- Jauges circulaires -->
+                                    <h6 class="heading" data-content="&#xf1ce" data-color="blue-light">Jauges circulaires</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-8 text-justify">Elles permettent d'afficher les données collectées ou de définir des données dans une plage de valeurs. Elles présentent une nouvelle façon d'afficher les données et ainsi donne une meilleure expérience utilisateur.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <br>
+                                            <div class="jauge" data-plugin="jauge" data-min="0" data-max="100" data-value="75"></div>
+                                            <div class="jauge" data-plugin="jauge" data-type="test" data-theme="primary"data-min="0" data-max="100" data-value="30"></div>
+                                            <div class="jauge" data-plugin="jauge" data-type="test2" data-theme="info"data-min="0" data-max="100" data-value="56"></div>
+                                            <div class="jauge" data-plugin="jauge" data-type="primary" data-theme="success" data-min="0" data-max="100" data-value="50"></div>
+                                            <div class="jauge" data-plugin="jauge" data-type="donut" data-theme="danger"data-min="0" data-max="100" data-value="80"></div>
+                                            <div class="jauge" data-plugin="jauge" data-type="donutDark" data-theme="warning"data-min="0" data-max="100" data-value="68"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Jauges circulaires -->
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-5">
+                                <div class="col-xl-6 col-md-12">
+                                    <h6 class="heading" data-content="&#xf03a" data-color="blue-light">Liste triable</h6>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-md-12 col-sm-12">
+                                            <p class="text-8 text-justify">Elles permettent à vos visiteurs d'effectuer un tri selon leurs convenances. le plugin draggable permet d'ajouter les fonctionnalités de déplacement à un élément <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-md-12 col-sm-12 mb-sm-4">
+                                            <ul data-plugin="draggable" class="list-separated">
+                                                <li draggable="true">Javascript</li>
+                                                <li draggable="true">HTML</li>
+                                                <li draggable="true">CSS</li>
+                                                <li draggable="true">ASP</li>
+                                                <li draggable="true">Python</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-12 col-sm-12">
+                                    <h6 class="heading" data-content="&#xf2c9" data-color="blue-light">Météo</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-8 text-justify">Les services internet se multiplient et permettent d'ajouter diverses fonctionnalités qui n'étaient pas possible auparavant. Le plugin météo permet d'afficher la météo provenant du site <a href="https://www.prevision-meteo.ch" onclick="window.open(this.href);return false">www.prevision-meteo.ch</a> et qui est configurée pour afficher la météo de la ville de Lausanne.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-md-12">
+                                            <div class="meteo-container" data-plugin="meteo"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-xl-6 col-lg-6">
+                                    <!-- Sécurité captcha -->
+                                    <h6 class="heading" data-content="&#xf577" data-color="blue-light">Sécurité Captcha</h6>
+                                    <p class="text-8 text-justify">Aujourd'hui avec le robots intelligents les formulaires peuvent être remplis automatiquement c'est pourquoi des vérifications ont été mise en place. Le composant captcha permet à vos clients d'être certifié humain et non comme une machine.</p>                                        
+                                    <br>
+                                    <div style="display:block;margin:auto;width:fit-content">
+                                        <div class="captcha" data-plugin="captcha"></div>
+                                        <br>
+                                        <bouton id="genererCaptcha" class="btn btn-xs btn-first">Générer</bouton>
+                                        <!-- End Sécurité captcha -->
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 mt-lg-0 mt-sm-3">
+                                    <!-- Signature -->
+                                    <h6 class="heading" data-content="&#xf5b7" data-color="blue-light">Signature</h6>
+                                    <p class="text-8 text-justify">Lorsque vos techniciens sont sur le terrain et que les client doivent signé vos documents, il est plus pratique de le faire électroniquement. Le composant signature permet à vos clients d'apposer leur signature sur vos documents officiels.</p>
+                                    <br>
+                                    <div style="display:block;margin:auto;width:fit-content">
+                                        <div class="signature" data-plugin="signature"></div>
+                                        <div><bouton id="effacerSignature" class="btn btn-xs btn-first">Effacer</bouton>&nbsp;<bouton id="chargerSignature" class="btn btn-xs btn-first">Charger</bouton>&nbsp;<bouton id="sauverSignature" class="btn btn-xs btn-first disabled">Sauvegarder</bouton></div>
+                                    </div>
+                                    <!-- End Signature -->
+                                </div>
+                            </div>
+                            <!-- DataTable -->
+                            <div class="row mt-4">
+                                <div class="col">
+                                    <h6 class="heading mt-4" data-content="&#xf0ce" data-color="blue-light">Table de données</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="text-8 text-justify">La présentation des données de manière structurée répond à la demande croissante des base de données et de la mobilité. La gestion des données clients, commandes et bien d'autres devient indispensable à toutes les sociétés de petite ou grande envergure.</p>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4"></div>
+                                <div class="col-4 text-center">
+                                    <span id="totalPages">&nbsp;</span>
+                                    <span id="totalRecords">&nbsp;</span>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <div class="selectBox-container">
+                                        <span>Contacts par page</span>
+                                        <div class="selectBox">
+                                            <select id="pageNumber" title="Sélection du nombre de contacts">
+                                                <option value="10">10</option>
+                                                <option value="20" selected="selected">20</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="DataTable" id="datatable" data-plugin="DataTable" data-options='public/json/datatable.json'></div>
+                                </div>
+                            </div>                            
+                            <!-- End DataTable -->
+
+                            <!-- Lecteur vidéo -->
+                                <div class="row mt-4">
+                                <div class="col">
+                                    <h6 class="heading mt-4" data-content="&#xf03d" data-color="blue-light">Vidéo</h6>
+                                </div>
+                                </div>
+                            <div class="row mt-2">
+                                <div class="col-12">
+                                    <p class="text-8 text-justify">La protection des vidéos que vous diffusez sur internet peut être importante. Elle peut être mise en oeuvre grace à JQuery, comme le présente les vidéos ci-dessous qui sont mes créations.</p>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-12 text-center">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-md-4">
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/earth.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/earth.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Earth
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/mdt.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/microdowntown.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Micro Downtown
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/piscine.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/piscine.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Piscine
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-4 col-md-4">
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/lignes.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/lignes.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Lignes
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/araignee.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/araignee.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Araignée
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/boite.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/boite.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Boite
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-4 col-md-4 hidden-sm">
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/zip.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/zip.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Zip
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/bonita.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/bonita.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Bonita
+                                            </a>
+                                            <br>
+                                            <br>
+                                            <a href="#" data-plugin="modal" data-options="public/mp4/chaises.mp4">
+                                                <div class="cadreImg">
+                                                    <img src="public/images/chaises.png" class="cadreImg">
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                Chaises
+                                            </a>
+                                        </div>
+                                    </div>                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="mt-3">
+            <div class="container">
+                Copyright &copy; Microdowntown 2024
+            </div>
+        </footer>
+        <div id="modalContainer"></div>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+.rating.rating-lg{
+    display:inline-block;
+    transform:rotateY(180deg);
+    height:36px;
+    line-height: 36px;
+    -webkit-user-select:none;                                                   /* Chrome all / Safari all */
+    -moz-user-select:none;                                                      /* Firefox all */
+    -ms-user-select:none;                                                       /* IE 10+ */
+    user-select:none;                                                           /* Likely future */  
+}
+
+.rating{
+    display:inline-block;
+    transform:rotateY(180deg);
+    height:25px;
+    line-height: 25px;
+    -webkit-user-select:none;                                                   /* Chrome all / Safari all */
+    -moz-user-select:none;                                                      /* Firefox all */
+    -ms-user-select:none;                                                       /* IE 10+ */
+    user-select:none;                                                           /* Likely future */  
+}
+
+.rating.rating-sm{
+    display:inline-block;
+    transform:rotateY(180deg);
+    height:18px;
+    line-height: 18px;
+}
+
+.rating input{
+    display:none;
+}
+
+.rating label{
+    display:inline-block;
+    width:auto;
+    cursor:pointer;   
+}
+
+.rating.rating-lg label::before{
+    position:relative;
+    display:block;
+    content: attr(data-content);/*'\f005';*/
+    font-family:'Font Awesome 6 Free'; 
+    font-size:36px;
+    color:#ddd;
+}
+
+.rating.rating-lg label::after{
+    position:absolute;
+    display:block;
+    content: attr(data-content);/*'\f005';*/
+    top:0;
+    font-family:'Font Awesome 6 Free';
+    font-weight: 900;    
+    font-size:36px;
+    color:#3d6ca2;
+    opacity:0;
+    transition:0.5s ease;
+}
+
+.rating label::before{
+    position:relative;
+    display:block;
+    content: attr(data-content);/*'\f005';*/
+    font-family:'Font Awesome 6 Free'; 
+    font-size:24px;
+    color:#ddd;
+}
+
+.rating label::after{
+    position:absolute;
+    display:block;
+    content: attr(data-content);/*'\f005';*/;
+    top:0;
+    font-family:'Font Awesome 6 Free';
+    font-weight: 900;    
+    font-size:24px;
+    color:#3d6ca2;
+    opacity:0;
+    transition:0.5s ease;
+}
+
+.rating.rating-sm label::before{
+    position:relative;
+    display:block;
+    content: attr(data-content);/*'\f005';*/;
+    top:0;
+    font-family:'Font Awesome 6 Free'; 
+    font-size:18px;
+    color:#ddd;
+}
+
+.rating.rating-sm label::after{
+    position:absolute;
+    display:block;
+    content: attr(data-content);/*'\f005';*/;
+    top:0;
+    font-family:'Font Awesome 6 Free';
+    font-size:18px;
+    color:#3d6ca2;
+    opacity:0;
+    transition:0.5s ease;
+}
+
+.rating input:checked ~ label::after{
+    opacity:1;
+}
+
+.rating label:hover ~ label::after,
+.rating label:hover::after{
+    color:#243f5e;
+    opacity:1;
+}

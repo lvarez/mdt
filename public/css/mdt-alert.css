@@ -1,0 +1,135 @@
+/* -------------------------------------------------------------------------- */
+/* -- Alerts ---------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.mdt-alert{
+    position: absolute;
+    top:20px;
+    right:20px;
+    min-width:150px;
+    width:auto;
+    padding:15px;
+    margin-bottom:20px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 85%, rgba(0,0,0,0.15) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 85%,rgba(0,0,0,0.15) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 85%,rgba(0,0,0,0.15) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#26000000',GradientType=0 ); /* IE6-9 */
+    border:1px solid transparent;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.4);
+    transition:all 0.2s ease;
+    z-index: 1080;
+}
+
+.mdt-alert span{
+    min-width:20px;
+    margin-right:10px;
+}
+
+.mdt-alert h4{
+    margin-top:0;
+    color:inherit;
+}
+
+.mdt-alert .mdt-alertLink{
+    font-weight:bold;
+}
+
+.mdt-alert > p, .mdt-alert > ul{
+    margin-bottom:0;
+}
+
+.mdt-alert > p + p{
+    margin-top:5px;
+}
+
+.mdt-alertdismissable, .mdt-alertDismissible{
+    padding-right:35px;
+}
+
+.mdt-alertDismissable .close, .mdt-alertDismissible .close{
+    position:relative;
+    top:5px;
+    right:5px;
+    color:inherit;
+}
+
+.mdt-alertPrimary{
+    color:rgb(193, 211, 230);
+    background-color:#486a87;
+    border: none;
+}
+
+.mdt-alertSecondary{
+    color:#202326;
+    background-color:#e2e3e5;
+    border-color:#d6d8db;
+}
+
+.mdt-alertDark{
+    color:#000;
+    background-color:#d6d8d9;
+    border-color:#c6c8ca;
+}
+
+.mdt-alertLight{
+    color:#000;
+    background-color:#fafafa;
+    border-color:#dfdfdf;
+}
+
+.mdt-alertSuccess{
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+
+.mdt-alertSuccess hr{
+    border-top-color:#c9e2b3;
+}
+
+.mdt-alertSuccess .mdt-alertLink{
+    color:#2b542c;
+}
+
+.mdt-alertInfo{
+    color:#245269;
+    background-color:#a2c2db;
+    border:none;
+}
+
+.mdt-alertInfo hr{
+    border-top-color:#a6e1ec;
+}
+
+.mdt-alertInfo .mdt-alertLink{
+    color:#245269;
+}
+
+.mdt-mdt-alertWarning{
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc;
+}
+
+.mdt-alertWarning hr{
+    border-top-color:#f7e1b5;
+}
+
+.mdt-alertWarning .mdt-alertLink{
+    color:#66512c;
+}
+
+.mdt-alertDanger{
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+}
+
+.mdt-alertDanger hr{
+    border-top-color:#e4b9c0;
+}
+
+.mdt-alertDanger .mdt-alertLink{
+    color:#843534;
+}

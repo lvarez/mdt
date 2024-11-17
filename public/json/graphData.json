@@ -1,0 +1,43 @@
+{
+    "title":"Chiffre d'affaire mensuel",
+    "color":"#337ab7",
+    "xLabel":"Mois",
+    "yLabel":"Chiffre d'affaire",
+    "data":[{
+        "label":"Janv.",
+        "value":65
+    },{
+        "label":"Févr.",
+        "value":58
+    },{
+        "label":"Mars",
+        "value":18        
+    },{
+        "label":"Avr.",
+        "value":52
+    },{
+        "label":"Mai",
+        "value":78
+    },{
+        "label":"Juin",
+        "value":34
+    },{
+        "label":"Juill.",
+        "value":26
+    },{
+        "label":"Août",
+        "value":29.55   
+    },{
+        "label":"Sept.",
+        "value":75
+    },{
+        "label":"Oct.",
+        "value":67
+    },{
+        "label":"Nov.",
+        "value":77
+    },{
+        "label":"Déc.",
+        "value":98
+    }]
+}

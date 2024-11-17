@@ -1,0 +1,38 @@
+.signature{
+    position:relative;
+    display:inline-block;
+    margin:0;
+    padding:15px 0 0 0;
+    cursor:url('../images/pen_2.cur') 0 5, pointer;
+}
+
+.signature canvas{
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.signature canvas:hover {
+    border-color:#5A92C9;
+}
+
+.signature::after{
+    position:absolute;
+    display:block;
+    content:'Veuillez apposer votre signature';
+    top:-8px;
+    left:5px;
+    padding:2px 5px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(222,233,242,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(222,233,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(222,233,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dee9f2',GradientType=0 ); /* IE6-9 */   
+    border:1px solid #d0d0d0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#1F3D56;
+    z-index: -1;
+}

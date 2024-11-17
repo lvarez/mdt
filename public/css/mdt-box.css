@@ -1,0 +1,36 @@
+.mdt-box{
+    width:auto;
+    padding:5px;
+    background-color: #387bb3;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.mdt-box-header{
+    margin: -5px 0 0 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.mdt-box-header i{
+    margin-right:5px;
+}
+
+.mdt-box-body{
+    display:block;
+    padding:10px;
+    /*min-height: 540px;*/
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mdt-box-footer{
+    padding:5px 5px 0 5px;
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: right;
+}

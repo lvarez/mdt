@@ -1,0 +1,23 @@
+{
+    "templates":[{
+                    "name":"advertsing",
+                    "title":null,
+                    "content":"<img src='./web/images/dell.jpg' width='620' height='400'>",
+                    "footer":null
+                },{
+                    "name":"login",
+                    "title":"Authentification",
+                    "content":"<form style='width:300px'><div class='input-group input-group-sm'><input class='form-control input-first' name='username' type='text' placeholder='Nom d'utilisateur' aria-label='Nom d\\'utilisateur' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-user'></i></span></div></div><br><div class='input-group input-group-sm'><input class='form-control input-first' name='password' type='password' autocomplete='false' placeholder='Mot de passe' aria-label='Mot de passe' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-lock'></i></span></div></div></form>",
+                    "footer":"<input class='btn btn-sm btn-first' type='reset' value='Annuler'><input class='btn btn-sm btn-first' type='submit' value='Valider'>"
+                },{
+                    "name":"modifContact",
+                    "title":"Modification",
+                    "content":"<form style='width:600px'><div class='row'><div class='col-6'><div class='input-group input-group-sm'><input class='form-control input-first' name='username' type='text' tabindex='1' placeholder='Nom' aria-label='Nom' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-user'></i></span></div></div><br><div class='input-group input-group-sm'><input class='form-control input-first' name='ville' type='text' tabindex='3' autocomplete='false' placeholder='NPA' aria-label='NPA' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-road'></i></span></div></div></div><div class='col-6'><div class='input-group input-group-sm'><input class='form-control input-first' name='username' type='text' tabindex='2' placeholder='Rue' aria-label='Rue' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-road'></i></span></div></div><br><div class='input-group input-group-sm'><input class='form-control input-first' name='ville' type='text' tabindex='4' autocomplete='false' placeholder='Localité' aria-label='Localité' aria-describedby='basic-addon1'><div class='input-group-append'><span class='input-group-text' id='basic-addon1'><i class='fa fa-road'></i></span></div></div></form>",
+                    "footer":"<div class='float-right'><input class='btn btn-sm btn-first' type='reset' value='Annuler'><input class='btn btn-sm btn-first' type='submit' value='Valider'></div>"
+                },{
+                    "name":"video",
+                    "title":null,
+                    "content":"<video preload='auto' width='600' height='300'><source src='web/mp4/Fergie.mp4' type='video/mp4'></video>",
+                    "footer":null
+                }]
+}

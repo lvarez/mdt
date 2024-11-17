@@ -1,0 +1,121 @@
+/* width */
+.combo-content::-webkit-scrollbar {
+    background-color: #000;
+    width:15px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Track */
+.combo-content::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-bottom-right-radius: 5px;
+}
+
+/* Handle */
+.combo-content::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-bottom-right-radius: 5px; 
+}
+
+.combo-container{
+    position:relative;
+    display:inline-block;
+    margin:0;
+    height:26px;
+    min-width:250px;
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 85%,#c6c6c6 100%,#ffffff 100%,#e0e0e0 100%); 
+    border:1px solid #777;
+    border-radius:5px;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+.combo-container:focus{
+    box-shadow: 0 0 0 0.2rem rgba(56, 123, 179, 0.2);
+}
+
+.combo-container:disabled{
+    cursor:not-allowed;
+}
+
+.combo-container #combo-chevron{
+    position:absolute;
+    display:inline-block;
+    top:-1px;
+    right:-1px;
+    width:26px;
+    height:26px;
+    line-height: 26px;
+    text-align: center;
+    background: rgb(56,123,179); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(56,123,179,1) 0%, rgba(56,123,179,1) 80%, rgba(45,99,142,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(56,123,179,1) 0%,rgba(56,123,179,1) 80%,rgba(45,99,142,1) 100%);
+    background: linear-gradient(to bottom, rgba(56,123,179,1) 0%,rgba(56,123,179,1) 80%,rgba(45,99,142,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#387bb3', endColorstr='#2d638e',GradientType=0 ); 
+    border:1px solid #777;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#fff;
+    font-size:11px;
+}
+
+.combo-container #combo-text{
+    position:absolute;
+    display:inline-block;
+    padding:0 0 0 10px;
+    font-size: 12px;
+    top:-1px;
+    left:-1px;
+    width:calc(100% - 23px);
+    height: 26px;
+    text-align: left !important;
+    line-height: 26px;
+}
+
+.combo-container input[type="text"]{
+    width:auto;
+    border:none;
+    outline:none;
+}
+
+.combo-content{
+    position:absolute;
+    display:none;
+    top: 26px;
+    left:-1px;
+    width:100%;
+    max-height: 200px;
+    background: #fff;
+    border:1px solid #aaa;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+    z-index:1080;
+    cursor:pointer;
+    overflow:auto;
+}
+
+.combo-content.on{
+    display:inline-block;
+}
+
+.combo-content ul{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    list-style:none;
+}
+
+.combo-content ul li{
+    padding:2px 10px;
+}
+
+.combo-content ul li:hover{
+    background: #eee;
+}

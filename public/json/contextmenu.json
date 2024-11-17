@@ -1,0 +1,25 @@
+{
+    "datatable":[{
+                    "html":"<a href='#'>Nouveau</a>",
+                    "callback":"Lausanne"
+                },{
+                    "html":"<a href='#'>Modifier</a>",
+                    "callback":"Lausanne"
+                },{
+                    "html":"<a href='#'>Supprimer</a>",
+                    "callback":"Lausanne"
+                },{
+                    "html":"<hr>",
+                    "callback":null
+                },{
+                    "html":"<a href='#'></a>",
+                    "callback":"Lausanne"   
+                }],
+    "videoplayer":[{
+                    "html":"",
+                    "callback":""
+                },{
+                    "html":"",
+                    "callback":""
+                }]
+}

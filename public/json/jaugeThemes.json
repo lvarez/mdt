@@ -1,0 +1,193 @@
+{
+    "colors":{
+        "danger":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#c23824",
+            "color":"#c23824",
+            "shadowColor":"rgba(0, 0, 0, 0.4)"            
+        },
+        "default":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#1d4364",
+            "color":"#1d4364",
+            "shadowColor":"rgba(0, 0, 0, 0.4)" 
+        },
+        "info":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#2c97de",
+            "color":"#2c97de",
+            "shadowColor":"rgba(0, 0, 0, 0.4)" 
+        },
+        "primary":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#227fbb",
+            "color":"#227fbb",
+            "shadowColor":"rgba(0, 0, 0, 0.4)"            
+        },        
+        "success":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#1aaf5d",
+            "color":"#1aaf5d",
+            "shadowColor":"rgba(0, 0, 0, 0.4)"            
+        },
+        "warning":{
+            "lineColor":"#e0e0e0",
+            "lineProgressColor":"#f59d00",
+            "color":"#f59d00",
+            "shadowColor":"rgba(0, 0, 0, 0.4)"            
+        }
+    },
+    "types":{
+        "default":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.80",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/14",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"               
+        }],        
+        "test":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2)/100*85",
+            "start":"0",
+            "end":"2*Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"4",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineColor"             
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.85",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/10",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"              
+        }],        
+        "test2":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2)/100*80",
+            "start":"-1/2 * Math.PI",
+            "end":"2*Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"4",
+            "strokeStyle":"'#ededed'"             
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.9",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/15",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"              
+        }],        
+        "donut":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2)/100*80",
+            "start":"0",
+            "end":"2*Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"this.settings.width/10",
+            "strokeStyle":"'#ededed'",   
+            "shadowOffsetX":"1",
+            "shadowOffsetY":"2",
+            "shadowColor":"this.themes['colors'][this.settings.theme].shadowColor",
+            "shadowBlur":"2"                 
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.80",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/14",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"              
+        }],        
+        "donutDark":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2)/100*85",
+            "start":"0",
+            "end":"2*Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"4",
+            "strokeStyle":"'#ededed'"             
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.85",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/10",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"              
+        }],        
+        "primary":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.85",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/12",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"          
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"((this.settings.width/2) /100) * 50",
+            "start":"this.settings.ratio * 4 * Math.PI",
+            "end":"(1 * Math.PI) + (this.settings.ratio * 4 * Math.PI)",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/40",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"       
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"((this.settings.width/2) /100) * 65",
+            "start":"this.settings.ratio * 2 * Math.PI + (1 * Math.PI)",
+            "end":"(2 * Math.PI) + (this.settings.ratio * 2 * Math.PI)",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/40",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"            
+        }],
+        "secondary":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2)/100*85",
+            "start":"0",
+            "end":"2*Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"this.settings.height/10",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineColor",
+            "shadowOffsetX":"1",
+            "shadowOffsetY":"2",
+            "shadowColor":"this.themes['colors'][this.settings.theme].shadowColor",
+            "shadowBlur":"2"             
+        },{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.85",
+            "start":"-1/2 * Math.PI",
+            "end":"this.settings.ratio * 2 * Math.PI - 1/2 * Math.PI",
+            "lineCap":"round",
+            "lineWidth":"this.settings.width/14",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"        
+        }],
+        "half":[{
+            "centerX":"this.settings.width/2",
+            "centerY":"this.settings.height/2",
+            "radius":"(this.settings.width/2) * 0.80",
+            "start":"0",
+            "end":"Math.PI",
+            "lineCap":"butt",
+            "lineWidth":"5",
+            "strokeStyle":"this.themes['colors'][this.settings.theme].lineProgressColor"
+        }]
+    }
+}

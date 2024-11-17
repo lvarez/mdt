@@ -1,0 +1,72 @@
+/* -------------------------------------------------------------------------- */
+/* -- Autocomplete ---------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.autocomplete-container{
+    position:relative;
+    z-index:100;
+}
+
+.autocomplete{
+    position:absolute;
+    width:calc(100% - 10px);
+    display:none;
+    margin:0 5px 0 5px;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-top:none;
+    border-right:1px solid #68afe6;
+    border-bottom:1px solid #68afe6;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left:1px solid #68afe6;
+    max-height:200px;
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow:auto;
+    z-index:-1;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+.autocomplete.open{
+    display:inline-block;
+}
+
+.autocomplete ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+}
+
+/* Track */
+.autocomplete ul::-webkit-scrollbar-track, .autocomplete ul::-webkit-scrollbar-track {
+    background:white;
+    border-top-right-radius:3px;
+}
+
+.autocomplete li{
+    padding:7px 5px;
+    font-size:0.8em;
+}
+
+.autocomplete li.active{
+    background-color: rgba(56, 123, 179, 0.3) !important;
+}
+
+.autocomplete li:last-child{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.autocomplete li:not(:first-child){
+    border-top:1px solid #ccc;
+}
+
+.autocomplete li:hover{
+    background-color:#f0f0f0;
+    cursor:pointer;
+}

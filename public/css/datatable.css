@@ -1,0 +1,118 @@
+/* #datatable{
+    position: relative;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+} 
+
+#datatable .content{
+    min-height: 500px;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 28px;
+} */
+
+.tableData{
+    table-layout: fixed;
+    margin-bottom: 0;
+    -webkit-user-select: none;                                                   /* Chrome all / Safari all */
+    -moz-user-select: none;                                                      /* Firefox all */
+    -ms-user-select: none;                                                       /* IE 10+ */
+    user-select: none;                                                           /* Likely future */
+}
+
+.tableData caption{
+    position:relative;
+    caption-side: top;
+    background-color:#f9f9f9;
+    border:1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom:none;
+    font-size: 24px;
+    font-weight:bolder;
+    color:#333;
+    text-align:center;
+}
+
+.tableData caption button{
+    position:absolute;
+    right:10px;
+}
+
+.tableData th{
+    position: relative;
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(114,114,114,0) 90%,rgba(127,127,127,0.2) 100%);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: 600;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.tableData th:hover{
+    background-color: rgb(229, 237, 243);  
+    color: #387bb3;
+}
+
+.tableData th i{
+    position: absolute;
+    top:0;
+    right:5px;
+    font-size:12px;
+    line-height:25px;
+    color: rgba(56, 124, 179, 0.4);
+}
+
+.tableData th:hover i{
+    color: #387bb3;
+}
+
+.tableData tr{
+    cursor:pointer;
+}
+
+.tableData td{
+    font-size:12px;
+}
+
+.tableData-page{
+    /* display:inline-block; */
+    width:100%;
+    border:1px solid #dee2e6;
+    border-top:none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableData-page p{
+    display: inline;
+    font-size: 20vh;
+    line-height: 20vh;
+    height: 100%;
+    color: #efefef;
+    vertical-align: middle;
+    -webkit-user-select: none;                                                   /* Chrome all / Safari all */
+    -moz-user-select: none;                                                      /* Firefox all */
+    -ms-user-select: none;                                                       /* IE 10+ */
+    user-select: none;                                                           /* Likely future */
+}
+
+.table-active td{
+    background: #387bb3;
+    color: #fff;
+}
+
+#totalPages{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #505050;
+}   
+
+#totalRecords{
+    display: block;
+    font-size: 11px;
+    color: #a0a0a0;
+}

@@ -1,0 +1,162 @@
+.selectBox-container{
+    display: inline-block;
+    margin: 0;
+    width: auto;
+}
+
+.selectBox-container-sm{
+    width: 100% !important;
+}
+
+.selectBox-container span{
+    display: block;
+    margin: 0;
+    font-size: 12px;
+}
+
+.selectBox-container-sm span{
+    font-size: 16px;
+}
+
+.selectBox{
+    position:relative;
+    display:inline-block;
+    width: auto;
+    margin-bottom: 10px;
+    background:rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.25) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.25) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.25) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#40000000',GradientType=0 ); /* IE6-9 */
+    font-size:12px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.selectBox:focus-within{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #387bb3 !important;
+}
+
+.selectBox:has(select.is-valid):focus-within{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #298756;
+}
+
+.selectBox:has(select.is-invalid):focus-within{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #dc3545ed;
+}
+
+.selectBox select.is-valid{
+    padding-right: 55px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    background-size: 17px;
+}
+
+.selectBox select.is-invalid{
+    padding-right: 55px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    background-size: 17px;
+}
+
+.selectBox-sm{
+    width:100% !important;    
+}
+
+.selectBox::before{
+    box-sizing: border-box;
+    position:absolute;
+    display:block;
+    content:'\f078';
+    top: 0;
+    right: 0;
+    width:25px;
+    height:100%;
+    background: rgb(56,123,179);
+    background: -moz-linear-gradient(top, rgba(56,123,179,1) 0%, rgba(56,123,179,1) 90%, rgba(0,0,0,0,0.8) 100%);
+    background: -webkit-linear-gradient(top, rgba(56,123,179,1) 0%,rgba(56,123,179,1) 90%,rgba(0,0,0,0.8) 100%);
+    background: linear-gradient(to bottom, rgba(56,123,179,1) 0%,rgba(56,123,179,1) 90%,rgba(0,0,0,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#387bb3', endColorstr='#2d638e',GradientType=0 );    
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    font-family:'Font Awesome 6 Free';
+    font-weight:900;
+    color:white;
+    text-align:center;
+    line-height:24px;
+}
+
+.selectBox:has(select.is-invalid)::before{
+    background: #8a0000;
+    background: -moz-linear-gradient(top, #8a0000 0%, #8a0000 80%, #8a0000 100%);
+    background: -webkit-linear-gradient(top, #8a0000 0%, #8a0000 80%, #8a0000 100%);
+    background: linear-gradient(to bottom, #8a0000 0%, #8a0000 80%, #8a0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#387bb3', endColorstr='#2d638e',GradientType=0 );
+}
+
+.selectBox:has(select.is-valid)::before{
+    background: #195134;
+    background: -moz-linear-gradient(top, #195134 0%, #195134 80%, #195134 100%);
+    background: -webkit-linear-gradient(top, #195134 0%, #195134 80%, #195134 100%);
+    background: linear-gradient(to bottom, #195134 0%, #195134 80%, #195134 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#387bb3', endColorstr='#2d638e',GradientType=0 );
+}
+
+.selectBox-sm::before{
+    line-height: 29px;
+}
+
+.selectBox select{
+    position: relative;
+    margin: 0;
+    padding: 5px 38px 5px 8px;
+    height: 25px;
+    width: auto;
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    line-height: 15px;
+    outline: none;
+    z-index: 1;
+    cursor: pointer;
+    appearance: none;
+}
+
+.selectBox select.is-invalid{
+    border-color: #dc3545 !important;
+}
+
+.selectBox select.is-valid{
+    border-color: green !important;
+}
+
+.selectBox-sm select{
+    height: 30px;
+    width: 100% !important;
+    line-height: 20px;
+}
+
+/* .selectBox select:hover{
+    border: 1px solid #86B7FE;
+} */
+
+.selectBox select:focus{
+    border: 1px solid #86B7FE;
+}
+
+.selectBox select:disabled{
+    cursor:not-allowed;
+}

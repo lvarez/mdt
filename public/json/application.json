@@ -1,0 +1,17 @@
+{
+    "application":{
+        "name":""
+    },
+    "ftp":{
+        "host":"localhost",
+        "port":21
+    },
+    "server":{
+        "host":"localhost",
+        "port":80
+    },
+    "smtp":{
+        "host":"mail.microdowntown.com",
+        "port":""
+    }
+}

@@ -1,0 +1,168 @@
+.form-container{
+    position: relative;
+}
+
+.datepicker-container.top{
+    position:absolute;
+    margin-top:5px;
+    padding:5px;
+    top:-265px;
+    width:auto;
+    min-width: 250px;
+    background: rgb(255,255,255);
+    border:1px solid #303030;/*387bb3*/
+    border-radius:5px;
+    font-family: Arial;
+    box-shadow:1px 2px 8px rgba(0, 0, 0, 0.35);
+    z-index:1000;
+    box-sizing:border-box;
+    -webkit-touch-callout:none;                                                 /* iOS Safari */
+    -webkit-user-select:none;                                                   /* Safari */
+    -khtml-user-select:none;                                                    /* Konqueror HTML */
+    -moz-user-select:none;                                                      /* Firefox */
+    -ms-user-select:none;                                                       /* Internet Explorer/Edge */
+    user-select:none;                                                           /* Non-prefixed version, currently supported by Chrome and Opera */ 
+}
+
+.datepicker-container.top::before{
+    position:absolute;
+    content:'';
+    bottom:-8px;
+    left:5px;
+    width:0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-top:8px solid #303030;
+}
+
+.datepicker-container.bottom{
+    position:absolute;
+    margin-top:8px;
+    padding:5px;
+    width:auto;
+    min-width: 250px;
+    background: rgb(255,255,255);
+    border:1px solid #303030;/*387bb3*/
+    border-radius:5px;
+    font-family: Arial;
+    box-shadow:1px 2px 8px rgba(0, 0, 0, 0.35);
+    z-index:1000;
+    box-sizing:border-box;
+    -webkit-touch-callout:none;                                                 /* iOS Safari */
+    -webkit-user-select:none;                                                   /* Safari */
+    -khtml-user-select:none;                                                    /* Konqueror HTML */
+    -moz-user-select:none;                                                      /* Firefox */
+    -ms-user-select:none;                                                       /* Internet Explorer/Edge */
+    user-select:none;                                                           /* Non-prefixed version, currently supported by Chrome and Opera */ 
+}
+
+.datepicker-container.bottom::before{
+    position:absolute;
+    content:'';
+    top:-8px;
+    left:5px;
+    width:0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:8px solid #303030;
+}
+
+.datepicker-container p.select{
+    margin:3px 0 3px 0; 
+    padding:0;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    color:#333;
+    line-height: 25px;
+}
+
+.datepicker-container p.select span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+}
+
+.datepicker-container p.select span.left{
+    float: left; 
+    margin-top: 0;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.datepicker-container p.select span.left:hover{
+    color:#65a6db;
+}
+
+.datepicker-container p.select span.right{
+    float: right; 
+    margin-top: 0;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.datepicker-container p.select span.right:hover{
+    color:#65a6db;
+}
+
+.datepicker{
+    width:100%;
+}
+
+.datepicker th{
+    padding:2px;
+    font-size:16px;
+    font-weight:bold;
+    color:#888;
+}
+
+.datepicker td{
+    padding:3px;
+}
+
+.datepicker td span{
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:28px;
+    background-color:transparent;
+    border:1px solid transparent;
+    border-radius:50%;
+    color:#333;
+    font-size:14px;
+    font-weight:bolder;
+    cursor:pointer;
+}
+
+.datepicker td span.current{
+    border-color:#387bb3;
+    border-radius: 50%;
+    background-color: #387bb3;
+    color: #fff;
+}
+
+.datepicker td span.other{
+    color: #ccc;
+}
+
+.datepicker td.active span{
+    border-color:#86b8e0;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #86b8e0;
+}
+
+.datepicker td span:hover{
+    background:#fff;
+    border:1px solid #ddd;
+    border-color:#387bb3;
+    color:#387bb3;
+}
+
+.datepicker td, .datepicker th{
+    text-align:center;
+}

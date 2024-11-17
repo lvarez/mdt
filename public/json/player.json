@@ -1,0 +1,102 @@
+[
+    {
+        "title": "bensound-dance",
+        "value": "public/sounds/mp3/player/bensound-dance.mp3",
+        "duration": "2:57"
+    },
+    {
+        "title": "bensound-dreams",
+        "value": "public/sounds/mp3/player/bensound-dreams.mp3",
+        "duration": "3:30"
+    },
+    {
+        "title": "bensound-evolution",
+        "value": "public/sounds/mp3/player/bensound-evolution.mp3",
+        "duration": "2:46"
+    },
+    {
+        "title": "bensound-newdawn",
+        "value": "public/sounds/mp3/player/bensound-newdawn.mp3",
+        "duration": "5:13"
+    },
+    {
+        "title": "bensound-straight",
+        "value": "public/sounds/mp3/player/bensound-straight.mp3",
+        "duration": "4:13"
+    },
+    {
+        "title": "cinematic-epic-emotional-eglair",
+        "value": "public/sounds/mp3/player/cinematic-epic-emotional-eglair.mp3",
+        "duration": "1:58"
+    },
+    {
+        "title": "epic-cinematic-saga-trailer-myths",
+        "value": "public/sounds/mp3/player/epic-cinematic-saga-trailer-myths.mp3",
+        "duration": "1:22"
+    },
+    {
+        "title": "fsm-team-escp-neonscapes",
+        "value": "public/sounds/mp3/player/fsm-team-escp-neonscapes.mp3",
+        "duration": "4:22"
+    },
+    {
+        "title": "helkimer-imagine",
+        "value": "public/sounds/mp3/player/helkimer-imagine.mp3",
+        "duration": "2:57"
+    },
+    {
+        "title": "joystock-emergence",
+        "value": "public/sounds/mp3/player/joystock-emergence.mp3",
+        "duration": "3:16"
+    },
+    {
+        "title": "joystock-funk-me-baby",
+        "value": "public/sounds/mp3/player/joystock-funk-me-baby.mp3",
+        "duration": "1:42"
+    },
+    {
+        "title": "joystock-future-is-now",
+        "value": "public/sounds/mp3/player/joystock-future-is-now.mp3",
+        "duration": "2:30"
+    },
+    {
+        "title": "joystock-positive-pop",
+        "value": "public/sounds/mp3/player/joystock-positive-pop.mp3",
+        "duration": "2:24"
+    },
+    {
+        "title": "mixaund-optimistic-inspirational",
+        "value": "public/sounds/mp3/player/mixaund-optimistic-inspirational.mp3",
+        "duration": "5:44"
+    },
+    {
+        "title": "mixaund-uplifting-energy",
+        "value": "public/sounds/mp3/player/mixaund-uplifting-energy.mp3",
+        "duration": "4:57"
+    },
+    {
+        "title": "vlad-gluschenko-travelling",
+        "value": "public/sounds/mp3/player/vlad-gluschenko-travelling.mp3",
+        "duration": "1:58"
+    },
+    {
+        "title": "Couleurs 3",
+        "value": "http://stream.srg-ssr.ch/m/couleur3/mp3_128"
+    },
+    {
+        "title": "LFM",
+        "value": "http://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3"
+    },
+    {
+        "title": "NRJ",
+        "value": "http://cdn.nrjaudio.fm/audio1/ch/50001/mp3_128.mp3"
+    },
+    {
+        "title": "OneFM",
+        "value": "http://onefm.ice.infomaniak.ch/onefm-high.mp3"
+    },
+    {
+        "title": "RougeFM",
+        "value": "http://rougefm.ice.infomaniak.ch/rougefm-high.mp3"
+    }
+]

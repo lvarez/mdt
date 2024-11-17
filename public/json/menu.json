@@ -1,0 +1,22 @@
+[{
+    "label":"Accueil",
+    "url":"index.php"
+},{
+    "label":"Jauges",
+    "url":"jauges.php"
+},{
+    "label":"Lists",
+    "url":"lists.php"
+},{ 
+    "label":"Charts",
+    "url":"charts.php"
+},{ 
+    "label":"Tables",
+    "url":"tables.php"
+},{
+    "label":"Images",
+    "url":"images.php"
+},{
+    "label":"Contact",
+    "url":"Contact.php"
+}]

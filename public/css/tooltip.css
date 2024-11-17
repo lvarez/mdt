@@ -1,0 +1,154 @@
+/* -------------------------------------------------------------------------- */
+/* -- Tooltip --------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.mdt-tooltip{
+    position:absolute;
+    z-index:1080;
+    display:block;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:12px;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1.42857143;
+    text-align:left;
+    text-align:start;
+    text-decoration:none;
+    text-shadow:none;
+    text-transform:none;
+    letter-spacing:normal;
+    word-break:normal;
+    word-spacing:normal;
+    word-wrap:normal;
+    white-space:normal;
+    filter:alpha(opacity=0);
+    opacity:0;
+}
+
+.mdt-tooltip.in{
+    filter:alpha(opacity=99);
+    opacity:0.99;
+}
+
+.mdt-tooltip.top{
+    padding:5px 0;
+    margin-top:-3px;
+}
+
+.mdt-tooltip.top-left{
+    padding:5px 0;
+    margin-top:-3px;
+}
+
+.mdt-tooltip.top-right{
+    padding:5px 0;
+    margin-top:-3px;
+}
+
+.mdt-tooltip.left{
+    padding:0 5px;
+    margin-left:-3px;
+}
+
+.mdt-tooltip.right{
+    padding:0 5px;
+    margin-left:3px;
+}
+
+.mdt-tooltip.bottom{
+    padding:5px 0;
+    margin-top:3px;
+}
+
+.mdt-tooltip.bottom-left{
+    padding:5px 0;
+    margin-top:3px;
+}
+
+.mdt-tooltip.bottom-right{
+    padding:5px 0;
+    margin-top:3px;
+}
+
+.mdt-tooltip-inner{
+    padding:4px 10px;
+    color:#fff;
+    text-align:justify;
+    max-width: 300px;
+    background-color:#0e2745;
+    border-radius:4px;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.mdt-tooltip-arrow{
+    position:absolute;
+    width:0; 
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+}
+
+.mdt-tooltip.top .mdt-tooltip-arrow{
+    bottom:0;
+    left:50%;  
+    margin-left:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#303030;
+}
+
+.mdt-tooltip.top-left .mdt-tooltip-arrow{
+    left:5px;
+    bottom:0;
+    margin-bottom:0;
+    border-width:5px 5px 0;
+    border-top-color:#303030;
+}
+
+.mdt-tooltip.top-right .mdt-tooltip-arrow{
+    bottom:0;
+    right:5px;
+    margin-bottom:0;
+    border-width:5px 5px 0;
+    border-top-color:#303030;
+}
+
+.mdt-tooltip.right .mdt-tooltip-arrow{
+    top:50%;
+    left:0;
+    margin-top:-5px;
+    border-width:5px 5px 5px 0;
+    border-right-color:#303030;
+}
+
+.mdt-tooltip.left .mdt-tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-width:5px 0 5px 5px;
+    border-left-color:#303030;
+}
+
+.mdt-tooltip.bottom .mdt-tooltip-arrow{
+    top:0;
+    left:50%;
+    margin-left:-5px;  
+    border-width:0 5px 5px;
+    border-bottom-color:#303030;
+}
+
+.mdt-tooltip.bottom-left .mdt-tooltip-arrow{
+    top:0;
+    left:5px;
+    margin-top:0;
+    border-width:0 5px 5px;
+    border-bottom-color:#303030;
+}
+
+.mdt-tooltip.bottom-right .mdt-tooltip-arrow{
+    top:0;
+    right:5px;
+    margin-top:0;
+    border-width:0 5px 5px;
+    border-bottom-color:#303030;
+}
