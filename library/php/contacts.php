@@ -1,9 +1,5 @@
 <?php
 
-$local = false;
-
-
-
 if(isset($_GET["keyword"])){
 
     $keyword = htmlspecialchars($_GET["keyword"]);
