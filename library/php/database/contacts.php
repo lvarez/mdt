@@ -65,18 +65,6 @@ if(!isset($_GET["keyword"])){
 
 $local = false;
 
-if($local){
-    $hostname = 'localhost';
-    $dbname = 'erp';
-    $username = 'root';
-    $password = '';
-}else{
-    $hostname = 'localhost';
-    $dbname = 'db000031';
-    $username = 'db000031';
-    $password = 'rTsi83eF';
-}
-
 if(isset($_GET["keyword"])){
 
     // $keyword = htmlspecialchars($_GET["keyword"]);
