@@ -2,17 +2,7 @@
 
 $local = false;
 
-if($_SERVER['HTTP_HOST'] === 'localhost'){
-    $hostname = 'localhost';
-    $dbname = 'erp';
-    $username = 'root';
-    $password = '';
-}else{
-    $hostname = 'localhost';
-    $dbname = 'db000031';
-    $username = 'db000031';
-    $password = 'Nz1v8i21~';
-}
+
 
 if(isset($_GET["keyword"])){
 
